@@ -1,21 +1,3 @@
-"""
-pure_python_stats.py  (Task 3 - generalized)
-
-Descriptive statistics for ANY CSV using only the Python standard library.
-Unlike Task 2, nothing about the schema is hardcoded: column types are detected
-dynamically, and the grouping column(s) are passed in on the command line, so the
-same script runs unchanged on the ads, Facebook-posts, and Twitter-posts files.
-
-Usage:
-    python pure_python_stats.py <file.csv> [group_by]
-      group_by: optional, comma-separated column names, e.g.
-                page_id            (ads)
-                page_id,ad_id      (ads, composite key)
-                Facebook_Id        (fb posts)
-                source             (tweets)
-
-If group_by is omitted, only dataset-level statistics are produced.
-"""
 
 import csv
 import math
