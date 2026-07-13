@@ -1,10 +1,4 @@
 """
-polars_stats.py  (Task 3 - generalized)
-
-Same generalized analysis using Polars. Works on any CSV; grouping column(s)
-passed on the command line. Reads all columns as strings then casts, so type
-handling matches the pure-Python and pandas versions.
-
 Install:  pip install polars
 Usage:    python polars_stats.py <file.csv> [group_by]
 """
