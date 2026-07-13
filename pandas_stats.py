@@ -1,13 +1,3 @@
-"""
-pandas_stats.py  (Task 3 - generalized)
-
-Same generalized analysis as the pure-Python version, using pandas. Works on any
-CSV; grouping column(s) passed on the command line.
-
-Usage:
-    python pandas_stats.py <file.csv> [group_by]
-      group_by: optional, comma-separated column names.
-"""
 
 import os
 import sys
